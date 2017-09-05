@@ -34,3 +34,10 @@ names.append('Aristotle')
 print(numbers)
 print(names)
 
+# Assign, change, and clear lists with slice
+names[1:4] = ['Steven', 'Jaky', 'Alicia'] # Change values
+print(names)
+names[1:4] = [] # remove the changed values
+print(names)
+names[:] = [] # clear the list
+print(names)
