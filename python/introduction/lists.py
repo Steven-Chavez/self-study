@@ -41,3 +41,7 @@ names[1:4] = [] # remove the changed values
 print(names)
 names[:] = [] # clear the list
 print(names)
+
+# Use len() to get lenght of list
+print(len(names))
+print(len(numbers))
