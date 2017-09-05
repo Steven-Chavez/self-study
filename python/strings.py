@@ -45,8 +45,12 @@ print("Program or be programed\n"
 # String indexes
 word = 'GitHub'
 print(word) 		# GitHub
-print(word[0])		# G
+print(word[0])		# G  - first character
 print(word[3])		# H
+
+# Negative string indexes are used to start from the right
+print(word[-1])		# b  - last character
+print(word[-3])		# H  
 
 
 
