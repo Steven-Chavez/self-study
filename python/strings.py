@@ -45,14 +45,16 @@ print("Program or be programed\n"
 # String indexes
 word = 'GitHub'
 print(word) 		# GitHub
-print(word[0])		# G  - first character
+print(word[0])		# G  	- first character
 print(word[3])		# H
 
 # Negative string indexes are used to start from the right
-print(word[-1])		# b  - last character
+print(word[-1])		# b  	- last character
 print(word[-3])		# H  
 
-
+# Slicing is used to extract specific characters from a word
+print(word[0:3])  	# Git 	- 0 is included 3 is excluded 
+print(word[3:6])	# Hub 	- 3 is included 6 is excluded
 
 
 
