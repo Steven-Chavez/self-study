@@ -24,3 +24,10 @@ the expressions with parentheses ()'''
 # floor division (//)
 11 / 2 # = 5.5 normal division 
 11 // 2 # = 5 floor division gets rid of the fraction
+
+# modulus operator (%) returns the remainder of the division
+11 % 2 # = 1
+11 % 10 # = 1
+23 % 6 # = 5
+print (23%6)
+
