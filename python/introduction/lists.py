@@ -22,3 +22,9 @@ names = names + ['Thomas', 'Socrates']
 print(numbers)
 print(names)
 
+# List are mutable unlike strings
+numbers[5] = 50 # replace the value at index 5 with 50
+names[1] = 'Jefferson'
+print(numbers)
+print(names)
+
