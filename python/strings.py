@@ -22,3 +22,11 @@ String Literals
 	can cover multiple lines            -n
 	formated and displayed as written   -w
 """)
+
+# String concatenation using + 
+name = 'Steven' + ' ' + 'Chavez'
+print(name)
+
+# Repeat operator (*) reapeats string 
+name = 3 * name
+print(name) #name is displayed 3 times
