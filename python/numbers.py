@@ -29,5 +29,7 @@ the expressions with parentheses ()'''
 11 % 2 # = 1
 11 % 10 # = 1
 23 % 6 # = 5
-print (23%6)
 
+# power calculations using the (**) operator
+3 ** 2 # 3 squared = 9 
+7 ** 5 # 7 to the power of 5 = 16807
