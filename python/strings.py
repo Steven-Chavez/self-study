@@ -2,6 +2,7 @@
 # Email: steven@stevenscode.com
 # Date: 9/4/2017
 # File: strings.py
+# Resource: https://docs.python.org/3/tutorial/introduction.html
 
 ''' Strings can be in closed with single quotes '..'
 or with double quotes "..". What you decide to use is
@@ -66,3 +67,6 @@ print(word[3:])		# Hub 	- no beginning position results to word length
 # len() gives length of strings
 print(len(word))
 
+# Using an index that is to large will result in an error
+# Using an index that is to large within slice results in ''
+# Python string are immutable. word[2] = P results in an error
