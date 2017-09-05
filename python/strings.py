@@ -10,3 +10,8 @@ up to you there is no difference. Use \ to escape. '''
 print('doesn\'t') # escape single quote with \'
 print("doesn't") # if you use double quotes escaping is unessary
 
+# newline \n
+print("Hello\nGoodbye")
+
+# raw strings doesn't display newline when \n is used
+print(r'C:\user\ninja')
