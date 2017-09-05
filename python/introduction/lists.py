@@ -16,3 +16,9 @@ print(names[2] + ' ' + names[0])	#indexing
 print(numbers[:2])					#slicing returns new list
 print(names[-1:])					#slicing 
 
+# Concatenating lists
+numbers = numbers + [44, 22, 56]
+names = names + ['Thomas', 'Socrates']
+print(numbers)
+print(names)
+
