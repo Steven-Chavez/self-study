@@ -56,5 +56,9 @@ print(word[-3])		# H
 print(word[0:3])  	# Git 	- 0 is included 3 is excluded 
 print(word[3:6])	# Hub 	- 3 is included 6 is excluded
 
+# w[:n] + w[n:] = w
+print(word[:3] + word [3:])
 
-
+# Slice default usful characteristic
+print(word[:3])		# Git 	- no beginning position results to 0
+print(word[3:])		# Hub 	- no beginning position results to word length
