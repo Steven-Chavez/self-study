@@ -28,3 +28,9 @@ names[1] = 'Jefferson'
 print(numbers)
 print(names)
 
+# Add values to the end of the list with append()
+numbers.append(23 * 4)
+names.append('Aristotle')
+print(numbers)
+print(names)
+
