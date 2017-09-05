@@ -41,3 +41,14 @@ print(name)
 # particularly useful in cases like this
 print("Program or be programed\n"
 	  "Author: Douglas Rushkoff")
+
+# String indexes
+word = 'GitHub'
+print(word) 		# GitHub
+print(word[0])		# G
+print(word[3])		# H
+
+
+
+
+
