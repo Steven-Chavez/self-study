@@ -62,3 +62,7 @@ print(word[:3] + word [3:])
 # Slice default usful characteristic
 print(word[:3])		# Git 	- no beginning position results to 0
 print(word[3:])		# Hub 	- no beginning position results to word length
+
+# len() gives length of strings
+print(len(word))
+
