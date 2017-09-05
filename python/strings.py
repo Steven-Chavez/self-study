@@ -15,3 +15,10 @@ print("Hello\nGoodbye")
 
 # raw strings doesn't display newline when \n is used
 print(r'C:\user\ninja')
+
+# String literals ("""...""") are used to cover multiple lines
+print("""
+String Literals
+	can cover multiple lines            -n
+	formated and displayed as written   -w
+""")
