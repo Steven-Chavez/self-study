@@ -10,3 +10,9 @@
 numbers = [2, 5, 10, 33]
 names = ['Tesla', 'Edison', 'Nikola']
 
+# Indexing and slicing lists
+print(numbers[3])					#indexing
+print(names[2] + ' ' + names[0])	#indexing
+print(numbers[:2])					#slicing returns new list
+print(names[-1:])					#slicing 
+
