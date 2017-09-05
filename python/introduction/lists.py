@@ -45,3 +45,12 @@ print(names)
 # Use len() to get lenght of list
 print(len(names))
 print(len(numbers))
+
+# List nesting
+first_name = ['Bob', 'Chad', 'Light']
+last_name = ['Anderson', 'Majors', 'Yagami']
+names = [first_name, last_name]
+print(names)
+print(names[0])
+print(names[1])
+print(names[0][2] + ' ' + names[1][2])
