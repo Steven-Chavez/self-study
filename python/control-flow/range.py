@@ -1,6 +1,6 @@
 # Author: Steven Chavez
 # Email: steven@stevenscode.com
-# Date: 9/4/2017
+# Date: 9/6/2017
 # File: range.py
 # Resource: https://docs.python.org/3/tutorial/controlflow.html
 
@@ -27,5 +27,5 @@ for d in range(len(dbz)):
 	print(d, dbz[d])
 	
 # Populate list using range()
-name = list(range(1,101))
-print(name)
+number = list(range(1,101))
+print(number)
