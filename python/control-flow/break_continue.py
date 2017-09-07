@@ -17,3 +17,13 @@ for n in range(2, 11):
 			break
 else: 	# when used with loop else has more in common with try
 	print("else")
+
+'''
+Continue will start the next iteration of the loop, skipping 
+the remainder of the code
+'''
+for n in range(2,11):
+	print(n)
+	if n % 2 == 0:
+		continue
+	print('Not Even')
