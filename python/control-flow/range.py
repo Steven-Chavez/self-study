@@ -11,7 +11,10 @@
 for i in range(10):
 	print(i)
 	
-print()
 # You are able to set starting number
 for i in range(5, 11):
+	print(i)
+	
+# You are able to specify how it increments as well
+for i in range(0, 11, 2):
 	print(i)
