@@ -25,3 +25,7 @@ dbz = ['Goku', 'Vegeta', 'Gohan', 'Goten', 'Trunks']
 
 for d in range(len(dbz)):
 	print(d, dbz[d])
+	
+# Populate list using range()
+name = list(range(1,101))
+print(name)
