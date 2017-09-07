@@ -18,3 +18,10 @@ for i in range(5, 11):
 # You are able to specify how it increments as well
 for i in range(0, 11, 2):
 	print(i)
+	
+# Combine the range() and len() functions iterate through
+# a list
+dbz = ['Goku', 'Vegeta', 'Gohan', 'Goten', 'Trunks']
+
+for d in range(len(dbz)):
+	print(d, dbz[d])
