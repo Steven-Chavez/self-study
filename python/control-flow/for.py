@@ -20,4 +20,3 @@ for a in animals[:]:
 	if len(a) == 5:
 		animals.insert(0, a)
 print(animals)
-	
