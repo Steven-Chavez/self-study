@@ -11,9 +11,13 @@ name = ['Tesla', 'Steven', 'Jaky', 'Breanna', 'Alicia']
 name.append('Pedro')
 print(name)
 
-# Use extend() method
+# Use extend() method. like apend but more than one item
 name[len(name):] = name
 print(name)
 
 name[len(name):] = ['Georgia', 'Helen']
+print(name)
+
+# insert() method inserts an item at specific position
+name.insert(0, 'Rose')
 print(name)
