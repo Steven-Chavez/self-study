@@ -12,10 +12,10 @@ name.append('Pedro')
 print(name)
 
 # Use extend() method. like apend but more than one item
-name[len(name):] = name
+name.extend(name)
 print(name)
 
-name[len(name):] = ['Georgia', 'Helen']
+name.extend(['Georgia', 'Helen'])
 print(name)
 
 # insert() method inserts an item at specific position
