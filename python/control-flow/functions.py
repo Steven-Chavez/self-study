@@ -22,3 +22,4 @@ def subtraction(n = 9, m = 6):
 
 total = subtraction()
 print(total)
+
