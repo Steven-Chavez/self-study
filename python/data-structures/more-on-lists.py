@@ -42,3 +42,7 @@ print(name)
 farm = ['chicken', 'cow', 'pig', 'goat']
 index = farm.index('cow')
 print(farm[index])
+
+# count(x) method returns the number of times item appears
+farm.append('chicken') # add item to list
+print(farm.count('chicken'))
