@@ -33,3 +33,8 @@ print(pop)
 
 pop = name.pop(0)
 print(pop)
+
+# clear() method removes all items from list
+name.clear()
+print(name)
+
