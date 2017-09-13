@@ -46,3 +46,8 @@ print(farm[index])
 # count(x) method returns the number of times item appears
 farm.append('chicken') # add item to list
 print(farm.count('chicken'))
+
+# sort(key=None, reverse=False) method sorts list
+# see sorted() to customize sort() arguments
+farm.sort()
+print(farm)
