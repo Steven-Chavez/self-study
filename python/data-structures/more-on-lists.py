@@ -55,3 +55,7 @@ print(farm)
 # reverse() method reverses items in list
 farm.reverse()
 print(farm)
+
+# create a copy of a list
+copy = farm[:]
+print(copy)
