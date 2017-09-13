@@ -51,3 +51,7 @@ print(farm.count('chicken'))
 # see sorted() to customize sort() arguments
 farm.sort()
 print(farm)
+
+# reverse() method reverses items in list
+farm.reverse()
+print(farm)
