@@ -26,3 +26,10 @@ print(name)
 name.remove('Rose')
 print(name)
 
+# pop([i]) returns and removes item at given position
+# If used without arguments pop() removes and returns last item
+pop = name.pop()
+print(pop)
+
+pop = name.pop(0)
+print(pop)
