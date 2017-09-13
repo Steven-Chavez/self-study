@@ -35,6 +35,10 @@ pop = name.pop(0)
 print(pop)
 
 # clear() method removes all items from list
-name.clear()
+del name[:]
 print(name)
 
+# index(x[,start[,end]])
+farm = ['chicken', 'cow', 'pig', 'goat']
+index = farm.index('cow')
+print(farm[index])
