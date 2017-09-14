@@ -59,3 +59,15 @@ print(farm)
 # create a copy of a list
 copy = farm[:]
 print(copy)
+
+# Use a list as a stack
+''' Using a list as a Stack a stack is where the last
+element is added is the first element recieved'''
+stack = [1, 2, 3, 4]
+stack.append(5) # Add item to the end of the list
+stack.append(6) # Add item to the end of the list
+print(stack)
+
+print('Pop last element added: ' + str(stack.pop()))
+print(stack)
+
