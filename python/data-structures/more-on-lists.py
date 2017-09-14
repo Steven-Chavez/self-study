@@ -71,3 +71,16 @@ print(stack)
 print('Pop last element added: ' + str(stack.pop()))
 print(stack)
 
+# Using a List as a Queue
+'''A Queue is first-in first-out. A list is naturally slow at
+acting as a queue. Poping from the beginning is slow because
+the all of the items have to be shifted by one. This is solved
+by using collections.deque'''
+from collections import deque
+queue = deque(['A', 'B', 'C'])
+queue.append('D')   # add item to the end of list
+queue.append('E')   # add another item to the end of the list
+print(queue)        # display updated list
+queue.popleft()     # pop 'A' from list
+queue.popleft()     # pop 'B' from list
+print(queue)        # display updated list
