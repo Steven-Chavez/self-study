@@ -90,3 +90,9 @@ print(queue)        # display updated list
 clause, and then zero or more for clauses'''
 tens = [x * 10 for x in range(10)]
 print(tens)
+
+# Same as above, just less concise and readable.
+tens = []
+for x in range(10):
+	tens.append(x * 10)
+print(tens)
