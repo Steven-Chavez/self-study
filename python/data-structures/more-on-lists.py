@@ -84,3 +84,9 @@ print(queue)        # display updated list
 queue.popleft()     # pop 'A' from list
 queue.popleft()     # pop 'B' from list
 print(queue)        # display updated list
+
+# List comprehension
+''' A list comprehension consists of [], expression, a for
+clause, and then zero or more for clauses'''
+tens = [x * 10 for x in range(10)]
+print(tens)
