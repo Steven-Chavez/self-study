@@ -4,6 +4,11 @@
 # File: tuple.py
 # Resource: https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences
 
-# Tuples and Sequences
+# Tuples and Sequences.
 '''A tuple is an immutable container that is made up of a number
-of values separated by commas'''
+of values separated by commas''' 
+
+# Populate tuple with values for testing.
+test = 2039, 'hello', 8493, 'world'
+
+
