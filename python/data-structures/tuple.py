@@ -11,4 +11,6 @@ of values separated by commas'''
 # Populate tuple with values for testing.
 test = 2039, 'hello', 8493, 'world'
 
-
+# Access tuple data and print
+print(test[1] + ' ' + test[3])
+print(test)
