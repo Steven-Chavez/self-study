@@ -12,11 +12,15 @@ slice expression'''
 test = [x**2 for x in range(1,11)]
 print(test)
 
-# use del statement to delete item at specific index
+# use del statement to delete item at a specific index
 del test[3]
 print(test)
 
 # use a slice expression to delete a section of the list
 del test[4:7]
+print(test)
+
+# empty entire list using del statement
+del test[:]
 print(test)
 
