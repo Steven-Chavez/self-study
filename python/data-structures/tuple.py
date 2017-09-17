@@ -22,3 +22,8 @@ print(nest)
 # Tuples are immutable. The below statement produces an error
 # test[2] = 1111
 
+# Initialize empty and single item tupple
+empty = () 
+single = 283,   # needs a trailing comma
+print(empty)
+print(single)
