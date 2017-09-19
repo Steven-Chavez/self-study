@@ -27,3 +27,11 @@ empty = ()
 single = 283,   # needs a trailing comma
 print(empty)
 print(single)
+
+# Sequence unpacking of a tuple
+a , b, c, d = test
+print(test) 
+print(a)
+print(b)
+print(c)
+print(d)
