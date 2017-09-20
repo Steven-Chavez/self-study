@@ -20,3 +20,13 @@ boolean = 'a' in letters
 print(boolean)
 boolean = 'm' in letters
 print(boolean)
+
+# Test operation on two different words
+one = set('amanda')
+two = set('abraham')
+print(one)
+print(two)
+print(one - two)
+print(one | two)
+print(one & two)
+print(one ^ two)
