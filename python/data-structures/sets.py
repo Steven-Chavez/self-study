@@ -7,3 +7,6 @@
 # Sets
 '''A set is an unordered collection with no duplicate item'''
 
+# Create sets using curly braces or the set() function
+letters = {'a', 'z', 'i', 'a', 'b', 'b', 'z', 'w'}
+print(letters)
