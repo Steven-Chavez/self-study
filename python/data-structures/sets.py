@@ -10,3 +10,7 @@
 # Create sets using curly braces or the set() function
 letters = {'a', 'z', 'i', 'a', 'b', 'b', 'z', 'w'}
 print(letters)
+
+# Create set using set() function
+letters = set('aziabbzw')
+print(letters)
