@@ -14,3 +14,9 @@ print(letters)
 # Create set using set() function
 letters = set('aziabbzw')
 print(letters)
+
+# Check if items are in sets
+boolean = 'a' in letters
+print(boolean)
+boolean = 'm' in letters
+print(boolean)
