@@ -18,3 +18,8 @@ print(age)
 # Add value to dictionary
 age['breanna'] = 20
 print(age)
+
+# Delete value in dictionary
+del age['jaky']
+print(age)
+
