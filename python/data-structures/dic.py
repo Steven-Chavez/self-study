@@ -27,3 +27,6 @@ print(age)
 ageList = list(age.keys())
 print(ageList)
 
+# Sort keys from dictionary to list
+ageSort = sorted(age.keys())
+print(ageSort)
