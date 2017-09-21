@@ -12,6 +12,9 @@ remain immutable. Keys have to remain unique per
 dictionary.'''
 
 # Initialize basic dictionary
-age = {'steven':27, 'jaky':26, 'Tesla':1}
+age = {'steven':27, 'jaky':26, 'tesla':1}
 print(age)
 
+# Add value to dictionary
+age['breanna'] = 20
+print(age)
