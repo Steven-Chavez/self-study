@@ -11,4 +11,7 @@ and values. Instead of indexes and values. Keys have to
 remain immutable. Keys have to remain unique per 
 dictionary.'''
 
+# Initialize basic dictionary
+age = {'steven':27, 'jaky':26, 'Tesla':1}
+print(age)
 
