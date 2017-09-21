@@ -30,3 +30,7 @@ print(ageList)
 # Sort keys from dictionary to list
 ageSort = sorted(age.keys())
 print(ageSort)
+
+# Search for key in list
+boolean = 'tesla' in age
+print(boolean)
