@@ -23,3 +23,7 @@ print(age)
 del age['jaky']
 print(age)
 
+# Convert dictionary keys to list
+ageList = list(age.keys())
+print(ageList)
+
