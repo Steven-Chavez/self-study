@@ -34,3 +34,9 @@ print(ageSort)
 # Search for key in list
 boolean = 'tesla' in age
 print(boolean)
+
+# Looping techniques
+'''Use the items() methods to retrieve keys and values'''
+for i, j in age.items():
+    print(i, j)
+
