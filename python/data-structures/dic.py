@@ -39,4 +39,3 @@ print(boolean)
 '''Use the items() methods to retrieve keys and values'''
 for i, j in age.items():
     print(i, j)
-
