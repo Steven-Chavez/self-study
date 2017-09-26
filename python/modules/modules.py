@@ -14,5 +14,11 @@ import header
 # By using the module name you can access the functions.
 header = header.display('Steven', 'S@yahoo.com', 'Sept 22, 2017')
 
+# dir() function is used to find out which names a module defines
+print(dir(header))
+print(dir())
+print()
 
-
+# List the built in function using builtins
+import builtins
+print(dir(builtins))
