@@ -1,5 +1,5 @@
-def header(name, email, date):
-	str = 'Name: ' + name + '\n'
-	str = str + 'Email: ' + email + '\n'
-	str = str +	'Date: ' + date + '\n'
-	return str
+def display(name, email, date):
+	st = 'Name: ' + name + '\n'
+	st = st + 'Email: ' + email + '\n'
+	st = st +	'Date: ' + date + '\n'
+	print(st)
