@@ -12,5 +12,7 @@ and definitions.'''
 import header
 
 # By using the module name you can access the functions.
-header = header.header('Steven', 'S@yahoo.com', 'Sept 22, 2017')
-print(header)
+header = header.display('Steven', 'S@yahoo.com', 'Sept 22, 2017')
+
+
+
