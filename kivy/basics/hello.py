@@ -16,4 +16,5 @@ class MyApp(App):
 		return Label(text='Hello world!')
 
 if __name__ == '__main__':
+	# Entry point into App
 	MyApp().run()
