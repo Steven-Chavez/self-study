@@ -4,6 +4,10 @@
 # File: username-password.py
 # Resource: https://kivy.org/docs/guide/basic.html
 
+# UserName/Password exercise
+'''Walking through the UserName/Password example
+provided by resource above'''
+
 # Extend application
 from kivy.app import App
 from kivy.uix.gridlayout import GridLayout
