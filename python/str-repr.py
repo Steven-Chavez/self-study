@@ -8,3 +8,8 @@
 '''str() returns a human-readable representation of the 
 values. repr() returns an interpreter-readable representation
 of the values.'''
+
+# Display differences between the two methods
+s = "MAC address"
+print(str(s))
+print(repr(s))
