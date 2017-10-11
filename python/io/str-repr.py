@@ -13,3 +13,8 @@ of the values.'''
 s = "MAC address"
 print(str(s))
 print(repr(s))
+
+# str.zfill() pads numeric strings with zeros on the left side.
+i = 21
+print(str(i).zfill(4))
+
